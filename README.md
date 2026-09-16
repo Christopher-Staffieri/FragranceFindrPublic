@@ -6,6 +6,8 @@ Django · Django REST Framework · Django Channels · React · TypeScript · Pos
 
 > **Status:** Active development. The core platform (auth, catalog, research pipeline, ratings, collections, notifications) is implemented and runs locally via Docker Compose. Not yet publicly deployed. See [Roadmap](#roadmap).
 
+**About this project.** FragranceFindr is a solo project I started in mid-2024 and have built in my own time since. Every line of application code is hand-written; I used no AI code generation. It began as a way to learn Django and React properly and turned into the most complete thing I've built: 28 models, ~90 endpoints, a WebSocket notification layer, and a full MFA/passkey auth flow.
+
 ---
 
 ## Why this exists
