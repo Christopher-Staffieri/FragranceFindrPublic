@@ -1,0 +1,12 @@
+django-allauth[mfa,socialaccount,headless]>=65.7.0
+qrcode >= 7.0.0
+psycopg[c]>=3.1.18
+django-countries[pyuca] >= 7.6.1
+djangorestframework==3.15.1
+django-cors-headers>=4.3.1
+pillow>=10.4.0
+channels[daphne]>=4.1.0
+channels-redis >= 4.2.0
+redis>=4.6
+dj-database-url>=3.0.1
+# django-redis >= 3.1.6

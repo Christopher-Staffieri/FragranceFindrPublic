@@ -1,0 +1,175 @@
+.star-rating {
+  display: flex;
+  direction: ltr;
+  font-size: 3rem; /* Adjust star size */
+}
+
+/* Scent Star */
+.scent_rating-star {
+cursor: pointer;
+color: lightgray; /* Empty star color */
+position: relative;
+width: 40px;
+height: 40px;
+}
+.scent_rating-star::before {
+  content: '★';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #4A90E2; /* Filled star color */
+  width: 0;
+  overflow: hidden;
+}
+
+.scent_rating-star.full::before {
+width: 100%;
+}
+
+.scent_rating-star.three-quarters::before {
+width: 65%;
+}
+
+.scent_rating-star.half::before {
+width: 45%;
+}
+
+.scent_rating-star.quarter::before {
+width: 25%;
+}
+
+/* Longevity Star */
+.longevity_rating-star {
+  cursor: pointer;
+  color: lightgray; /* Empty star color */
+  position: relative;
+  width: 40px;
+  height: 40px;
+  }
+  .longevity_rating-star::before {
+    content: '★';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #F45B69; /* Filled star color */
+    width: 0;
+    overflow: hidden;
+  }
+  
+  .longevity_rating-star.full::before {
+  width: 100%;
+  }
+  
+  .longevity_rating-star.three-quarters::before {
+  width: 65%;
+  }
+  
+  .longevity_rating-star.half::before {
+  width: 45%;
+  }
+  
+  .longevity_rating-star.quarter::before {
+  width: 25%;
+  }
+
+/* Silliage Star */
+.sillage_rating-star {
+  cursor: pointer;
+  color: lightgray; /* Empty star color */
+  position: relative;
+  width: 40px;
+  height: 40px;
+  }
+.sillage_rating-star::before {
+  content: '★';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #8E44AD; /* Filled star color */
+  width: 0;
+  overflow: hidden;
+}
+  
+.sillage_rating-star.full::before {
+width: 100%;
+}
+
+.sillage_rating-star.three-quarters::before {
+width: 65%;
+}
+
+.sillage_rating-star.half::before {
+width: 45%;
+}
+
+.sillage_rating-star.quarter::before {
+width: 25%;
+}
+
+/* Bottle Star */
+.bottle_rating-star {
+  cursor: pointer;
+  color: lightgray; /* Empty star color */
+  position: relative;
+  width: 40px;
+  height: 40px;
+  }
+.bottle_rating-star::before {
+  content: '★';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #2ECC71; /* Filled star color */
+  width: 0;
+  overflow: hidden;
+}
+  
+.bottle_rating-star.full::before {
+width: 100%;
+}
+
+.bottle_rating-star.three-quarters::before {
+width: 65%;
+}
+
+.bottle_rating-star.half::before {
+width: 45%;
+}
+
+.bottle_rating-star.quarter::before {
+width: 25%;
+}
+
+/* Price Star */
+.price_rating-star {
+  cursor: pointer;
+  color: lightgray; /* Empty star color */
+  position: relative;
+  width: 40px;
+  height: 40px;
+  }
+.price_rating-star::before {
+  content: '★';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #9CA3AF; /* Filled star color */
+  width: 0;
+  overflow: hidden;
+}
+  
+.price_rating-star.full::before {
+width: 100%;
+}
+
+.price_rating-star.three-quarters::before {
+width: 65%;
+}
+
+.price_rating-star.half::before {
+width: 45%;
+}
+
+.price_rating-star.quarter::before {
+width: 25%;
+}

@@ -1,0 +1,29 @@
+# secrets / local config
+.env
+.env.*
+backend/backend/local_settings.py
+
+# postgres data volume (68 MB, must never be committed)
+data/
+
+# user uploads (keep only the default avatar)
+backend/media/*
+!backend/media/default_pfp/
+
+# python
+__pycache__/
+*.pyc
+*.sqlite3
+venv/
+.venv/
+
+# node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

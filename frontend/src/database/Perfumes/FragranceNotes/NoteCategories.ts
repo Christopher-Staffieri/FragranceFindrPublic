@@ -1,0 +1,28 @@
+
+export const NoteCategories = [
+    "Aldehydes",
+    "Amber",
+    "Animalic",
+    "Aquatic",
+    "Balsamic",
+    "Citric",
+    "Earthy",
+    "Floral",
+    "Ingredients",
+    "Fruity",
+    "Gourmandy",
+    "Grain",
+    "Green",
+    "Herbaceous",
+    "Mineral",
+    "Mossy",
+    "Musk",
+    "Un-Classified",
+    "Oriental",
+    "Powdery",
+    "Resinous",
+    "Smoky",
+    "Spicy",
+    "Textile",
+    "Woody"
+    ]
