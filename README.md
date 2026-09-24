@@ -192,4 +192,4 @@ The authentication frontend (`frontend/src/account`, `frontend/src/mfa`, `fronte
 ## Author
 
 **Christopher Staffieri** — B.S. Computer Science, Stevens Institute of Technology (expected 2029)
-[GitHub](https://github.com/Christopher-Staffieri) · [LinkedIn](https://www.linkedin.com/in/christopher-staffieri-29b16a352/)
+[GitHub](https://github.com/Christopher-Staffieri) · [LinkedIn](www.linkedin.com/in/christopher-staffieri)
